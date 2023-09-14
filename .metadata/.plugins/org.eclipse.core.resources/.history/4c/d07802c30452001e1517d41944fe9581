@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+
+package Practice;
+
+public class AverageAndSum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+        Scanner scanner = new Scanner(System.in);
+        int evenSum = 0;
+        int oddSum = 0;
+        int evenCount = 0;
+        int oddCount = 0;
+
+        System.out.print("Enter numbers (0 to exit): ");
+
+        while (true) {
+            int number = scanner.nextInt();
+
+            if (number == 0) {
+                break;
+            }
+
+            if (number % 2 == 0) {
+                evenSum += number;
+                evenCount++;
+            } else {
+                oddSum += number;
+                oddCount++;
+            }
+        }
+
+        scanner.close();
+
+        // Calculate average
+        double evenAverage = evenCount > 0 ? (double) evenSum / evenCount : 0;
+        double oddAverage = oddCount > 0 ? (double) oddSum / oddCount : 0;
+
+        // Print results
+        System.out.println("Even Numbers:");
+        System.out.println("Sum: " + evenSum);
+        System.out.println("Average: " + evenAverage);
+
+        System.out.println("Odd Numbers:");
+        System.out.println("Sum: " + oddSum);
+        System.out.println("Average: " + oddAverage);
+
+	}
+
+}
+
+
+
+
+

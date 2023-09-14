@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Selinium.webdriver.basictests.A&apos; to &apos;RobotClass&apos;&#x0D;&#x0A;- Original project: &apos;AutomationSelinium&apos;&#x0D;&#x0A;- Original element: &apos;Selinium.webdriver.basictests.A&apos;&#x0D;&#x0A;- Renamed element: &apos;Selinium.webdriver.basictests.RobotClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;A&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Selinium.webdriver.basictests{A.java[A" matchStrategy="1" name="RobotClass" qualified="false" references="true" similarDeclarations="false" stamp="1693637935509" textual="false" version="1.0"/>
+</session>

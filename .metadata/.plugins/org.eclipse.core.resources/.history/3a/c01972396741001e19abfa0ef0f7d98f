@@ -1,0 +1,16 @@
+package Selinium.webdriver.basictests;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class FirstTest 
+{
+
+	public static void main(String[] args)
+	{
+		System.setProperty("webdriver.firefox.marionette","C://Program Files//eclipse");
+		webDriver driver=new FirefoxDriver();
+		
+
+	}
+
+}
